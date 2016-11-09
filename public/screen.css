@@ -9,11 +9,7 @@ body {
 
 .header {
   background-color: #ecf0f5;
-  padding: .5em;
-}
-
-.header nav {
-
+  padding: 0.5em;
 }
 
 .header ul {
@@ -35,6 +31,7 @@ body {
 .header li a {
   text-decoration: none;
   padding-left: 0.5em;
+  color: #6a737b;
 }
 
 .header img {
@@ -44,13 +41,55 @@ body {
 
 .octocats {
   display: flex;
-  padding: 5em;
-  flex-wrap: wrap;
+  outline-color: blue;
 }
 
 .octocats img {
-  justify-content: center;
   max-width: 300px;
   max-height: 300px;
+  padding: 1em;
+  outline-style: double;
+  outline-color: grey;
+}
+
+.octocats ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.octocats li {
+  list-style-type: none;
   padding: 2em;
+}
+
+.octocats p {
+  text-align: right;
+  color: #6a737b;
+}
+
+.octocats p a {
+  text-decoration: none;
+  color: #333;
+  font: helvetica, bold;
+}
+
+.header li:hover{
+  background-color: black;
+}
+
+a:link {
+  color: green;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: yellow;
 }
