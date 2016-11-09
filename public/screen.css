@@ -6,3 +6,51 @@ body {
   margin: 0;
   font: 16px / 1 sans-serif;
 }
+
+.header {
+  background-color: #ecf0f5;
+  padding: .5em;
+}
+
+.header nav {
+
+}
+
+.header ul {
+  display: flex;
+  flex-direction: row;
+  color: #2a2c2e;
+  max-height: 55px;
+  list-style-type: none;
+  font: "helvetica";
+  text-decoration: none;
+  justify-content: space-between;
+  padding-right: 1em;
+}
+
+.header li:first-child {
+  flex: 1;
+}
+
+.header li a {
+  text-decoration: none;
+  padding-left: 0.5em;
+}
+
+.header img {
+  max-height: 1em;
+  align-items: left;
+}
+
+.octocats {
+  display: flex;
+  padding: 5em;
+  flex-wrap: wrap;
+}
+
+.octocats img {
+  justify-content: center;
+  max-width: 300px;
+  max-height: 300px;
+  padding: 2em;
+}
