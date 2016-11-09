@@ -31,7 +31,6 @@ body {
 .header li a {
   text-decoration: none;
   padding-left: 0.5em;
-  color: #6a737b;
 }
 
 .header img {
@@ -74,22 +73,28 @@ body {
   font: helvetica, bold;
 }
 
-.header li:hover{
-  background-color: black;
-}
-
 a:link {
-  color: green;
+  color: #6a737b;
 }
 
 a:visited {
-  color: green;
+  color: #6a737b;
 }
 
 a:hover {
-  color: red;
+  color: #333;
 }
 
 a:active {
-  color: yellow;
+  color: #6a737b;
+}
+
+@media (max-width: 500px) {
+  .octocats img {
+    max-width: 150px;
+    max-height: 150px;
+    padding: .5m;
+    outline-style: double;
+    outline-color: grey;
+  }
 }
